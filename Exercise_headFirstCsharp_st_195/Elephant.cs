@@ -10,7 +10,13 @@ namespace Exercise_headFirstCsharp_st_195
 
        public string Name = "";
        public int EarSize = 0;
-        
+
+        // Start a program where user has to select which option to run 
+        // string key - option that user has to select 
+        // WhoAmI function - writes on a console Name of the object and EarSize 
+        // SpeakTo function - just an example how ".this" operation works in C# 
+        // Swap - do swap of two objects 
+        // HearMessage - presents a mesage from an object to another Elephant object 
         public static void StartElephantProgram(Elephant first, Elephant second )
         {
             string key;
